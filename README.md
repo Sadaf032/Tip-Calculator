@@ -9,7 +9,7 @@ A responsive single-screen tip calculator that updates results live while typing
 - Live calculations (no calculate button)
 - Preset tip buttons (10%, 15%, 20%)
 - Custom tip input
-- Number of people split
+- Bill splitting among multiple people
 - Inline validation (no alerts)
 - Reset functionality
 - Fully responsive design
@@ -19,16 +19,16 @@ A responsive single-screen tip calculator that updates results live while typing
 ## 🛠️ How to Run
 
 ### Option 1: Direct Run
-1. Download or clone the repository
-2. Open the project folder
-3. Double-click `index.html` to open in the browser
+1. Clone or download the repository
+2. Open folder
+3. Double-click `index.html.`
 
 ---
 
 ### Option 2: Live Server (Recommended)
 1. Open the project in VS Code
 2. Right-click `index.html.`
-3. Click **"Open with Live Server"**
+3. Click "Open with Live Server."
 
 ---
 
