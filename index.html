@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Tip Calculator</title>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="left-card">
+
+<h1>Tip Calculator</h1>
+
+<label for="bill">Bill Amount (Rs)</label>
+
+<input
+id="bill"
+type="number"
+placeholder="Enter amount"
+inputmode="decimal"
+aria-label="Bill amount">
+
+<small class="error" id="billError"></small>
+
+
+<label>Select Tip %</label>
+
+<div class="tip-buttons">
+
+<button class="tip-btn" data-tip="10" type="button">
+10%
+</button>
+
+<button class="tip-btn active" data-tip="15" type="button">
+15%
+</button>
+
+<button class="tip-btn" data-tip="20" type="button">
+20%
+</button>
+
+</div>
+
+
+<input
+id="customTip"
+type="number"
+placeholder="Custom %"
+aria-label="Custom tip percentage">
+
+<small class="error" id="tipError"></small>
+
+
+<label for="people">
+Number of People
+</label>
+
+<input
+id="people"
+type="number"
+placeholder="Enter people"
+inputmode="numeric"
+aria-label="Number of people">
+
+<small class="error" id="peopleError"></small>
+
+
+<button
+id="reset"
+type="button">
+
+Reset
+
+</button>
+
+</div>
+
+
+
+<div class="right-card">
+
+<div class="result">
+
+<p>Total Tip</p>
+
+<h2 id="tipAmount">
+
+Rs 0.00
+
+</h2>
+
+</div>
+
+
+<div class="result">
+
+<p>Grand Total</p>
+
+<h2 id="grandTotal">
+
+Rs 0.00
+
+</h2>
+
+</div>
+
+
+
+<div class="result">
+
+<p>Per Person</p>
+
+<h2 id="perPerson">
+
+Rs 0.00
+
+</h2>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
