@@ -2,27 +2,37 @@
 
 A responsive single-screen tip calculator that updates results live while typing.
 
-## Features
+---
 
-- Live calculations
-- Preset tip buttons
-- Custom tip
-- Inline validation
+## 🚀 Features
+
+- Live calculations (no calculate button)
+- Preset tip buttons (10%, 15%, 20%)
+- Custom tip input
+- Number of people split
+- Inline validation (no alerts)
 - Reset functionality
-- Responsive design
+- Fully responsive design
 
-## Run Locally
+---
 
-1. Clone repository
+## 🛠️ How to Run
 
-git clone YOUR_REPO_URL
+### Option 1: Direct Run
+1. Download or clone the repository
+2. Open the project folder
+3. Double-click `index.html` to open in the browser
 
-2. Open folder
+---
 
-3. Open index.html
+### Option 2: Live Server (Recommended)
+1. Open the project in VS Code
+2. Right-click `index.html.`
+3. Click **"Open with Live Server"**
 
-Or use Live Server:
+---
 
-Right click index.html → Open with Live Server
+## 📦 Clone Repository
 
-No installation required.
+```bash
+git clone https://github.com/Sadaf032/Tip-Calculator.git
