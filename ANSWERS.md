@@ -2,11 +2,11 @@
 
 ## 1. How to run
 
-Clone repository:
 
-git clone YOUR_REPO_URL
+Clone the repository:
 
-Open index.html using browser or Live Server.
+git clone https://github.com/Sadaf032/Tip-Calculator.git
+Open index.html using a browser or Live Server.
 
 No dependencies required.
 
