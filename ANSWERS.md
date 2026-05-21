@@ -13,7 +13,7 @@ No dependencies required.
 
 ## 2. Stack & design choices
 
-I used Vanilla HTML, CSS, and JavaScript because this task is a single-page interactive application and does not require a framework.
+I used HTML, CSS, and JavaScript because this task is a single-page interactive application and does not require a framework.
 
 Decision 1:
 I used a two-column layout on larger screens so users can see inputs and outputs side by side.
